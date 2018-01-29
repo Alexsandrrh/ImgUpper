@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Folio Book;
+  src: url(../fonts/Folio Book.otf);
+  font-family: BarlowCondensed-Thin;
+  src: url(../fonts/BarlowCondensed-Thin.ttf);
+  font-family: CenturyGothic-Bold;
+  src: url(../fonts/Century Gothic Bold/CenturyGothic-Bold.ttf);  
+  font-family: Comfortaa-Regular;
+  src: url(../fonts/Comfortaa-Regular.ttf);   
+}
+
+body {
+  margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	height: 80px;
+	text-align: right; 
+}
+
+header a {
+	font-family: Comfortaa-Regular;
+	color: #000;
+	line-height: 85px;
+	margin-left: 45px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+header a:hover {
+    color: #8CBE73;
+}
+
+header span {
+	font-weight: 900;
+	font-size: 17px;
+}
+
+header .container {
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	line-height: 120px;
+}
+
+.user {
+	float: right;
+	line-height: 120px;
+
+}
